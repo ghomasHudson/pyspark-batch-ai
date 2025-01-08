@@ -15,6 +15,7 @@ And end up with the same table with a `response` column:
 | A. Smith | 40  | 4            |
 | B. Jones | 45  | 36           |
 
+Prompts are sent using [openAI's batch API](https://platform.openai.com/docs/guides/batch), so are optimized for processing large dataframes.
 
 ## Install
 
