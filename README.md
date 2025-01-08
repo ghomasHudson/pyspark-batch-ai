@@ -18,12 +18,13 @@ And end up with the same table with a `response` column:
 
 ## Install
 
-`pip install sparkbatchopenai`
+`pip install pyspark-batch-ai`
 
 ## How to use
 
 ```python
 import pandas as pd
+from pyspark_batch_ai import process_dataframe
 data = {'prompt': ['translate this to french: hello', 'summarize this text in one sentence.']}
 df = pd.dataframe(data)
 client = openai.client(api_key="sk-...")
