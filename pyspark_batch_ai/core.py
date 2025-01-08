@@ -29,7 +29,7 @@ def process_dataframe(
     response_schema: pyspark.sql.types.DataType = T.StringType(),
     prompt_is_json: bool = False,
     output_format: str = "auto",
-    model: str = "gpt-4o-mini-batch-5B"
+    model: str = "gpt-3.5-turbo-0125"
 ) -> pyspark.sql.DataFrame:
     """
     Processes a dataframe of prompts in batches using OpenAI's batch API, submitting tasks for LLM processing
