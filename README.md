@@ -19,8 +19,11 @@ Prompts are sent using [openAI's batch API](https://platform.openai.com/docs/gui
 
 ## Install
 
-pyspark-batch-ai can be installed via pip from [PyPI](https://pypi.org/project/pyspark-batch-ai/):
+1. Clone the repo
+2. `pip install .`
 
+### TODO
+pyspark-batch-ai can be installed via pip from [PyPI](https://pypi.org/project/pyspark-batch-ai/):
 `pip install pyspark-batch-ai`
 
 ## How to use
