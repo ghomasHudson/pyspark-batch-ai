@@ -18,6 +18,8 @@ And end up with the same table with a `response` column:
 
 ## Install
 
+pyspark-batch-ai can be installed via pip from [PyPI](https://pypi.org/project/pyspark-batch-ai/):
+
 `pip install pyspark-batch-ai`
 
 ## How to use
