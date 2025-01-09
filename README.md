@@ -24,9 +24,12 @@ Prompts are sent using [openAI's batch API](https://platform.openai.com/docs/gui
 
 ### TODO
 pyspark-batch-ai can be installed via pip from [PyPI](https://pypi.org/project/pyspark-batch-ai/):
+
 `pip install pyspark-batch-ai`
 
 ## How to use
+
+See the [Examples](https://github.com/ghomasHudson/pyspark-batch-ai/tree/main/examples).
 
 ```python
 import pandas as pd
